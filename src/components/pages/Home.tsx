@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 
-export default class Error extends Component {
-    constructor(props){
+export default class Home extends Component {
+    constructor(props: any) {
         super(props);
         this.state = {
             history: {
@@ -12,7 +12,7 @@ export default class Error extends Component {
 
     render() {
         return (
-            <h1>404 Page Not Found!</h1>
+            <h1>Home</h1>
         );
     }
 }

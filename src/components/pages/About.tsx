@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 
-export default class Home extends Component {
-    constructor(props){
+export default class About extends Component {
+    constructor(props: any){
         super(props);
         this.state = {
             history: {
@@ -12,7 +12,7 @@ export default class Home extends Component {
 
     render() {
         return (
-            <h1>Home</h1>
+            <h1>About</h1>
         );
     }
 }

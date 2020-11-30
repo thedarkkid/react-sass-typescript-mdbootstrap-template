@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 
-export default class Contact extends Component {
-    constructor(props){
+export default class Error extends Component {
+    constructor(props: any){
         super(props);
         this.state = {
             history: {
@@ -12,7 +12,7 @@ export default class Contact extends Component {
 
     render() {
         return (
-            <h1>Contact The Developer</h1>
+            <h1>404 Page Not Found!</h1>
         );
     }
 }

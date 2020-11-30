@@ -7,8 +7,15 @@ import Error from './pages/Error';
 import SwitchMarkup from './SwitchMarkup';
 import Navbar from './widgets/Navbar'
 
-export default class App extends React.Component {
-  constructor(props) {
+interface IState{
+  history: any;
+  navigation: any;
+}
+
+
+
+export default class App extends React.Component<any, IState> {
+  constructor(props: any) {
     super(props);
     this.state = {
       history: {
